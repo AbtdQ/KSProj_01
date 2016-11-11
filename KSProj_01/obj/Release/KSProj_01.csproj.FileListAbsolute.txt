@@ -1,0 +1,14 @@
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\KSProj_01.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\KSProj_01.pdb
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\Assembly-CSharp.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\UnityEngine.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\Assembly-CSharp-firstpass.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\TrackIRUnity.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\UnityEngine.UI.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\KSPAssets.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\Mono.Cecil.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\TDx.TDxInput.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\Mono.Security.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Release\UnityEngine.xml
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Release\KSProj_01.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Release\KSProj_01.pdb

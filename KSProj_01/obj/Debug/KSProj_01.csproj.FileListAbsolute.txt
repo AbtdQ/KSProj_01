@@ -1,0 +1,15 @@
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\KSProj_01.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\KSProj_01.pdb
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\Assembly-CSharp.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\UnityEngine.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\TrackIRUnity.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\UnityEngine.UI.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\KSPAssets.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\Mono.Cecil.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\TDx.TDxInput.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\Mono.Security.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\UnityEngine.xml
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Debug\KSProj_01.dll
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Debug\KSProj_01.pdb
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Debug\KSProj_01.csprojResolveAssemblyReference.cache
