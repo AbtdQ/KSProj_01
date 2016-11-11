@@ -12,11 +12,6 @@ namespace KSProj_01
         [KSPField(isPersistant = false, guiActive = true, guiActiveEditor = true, guiName = "Ti"), UI_FloatRange(minValue = 0f, maxValue = 0f, stepIncrement = 1f, scene = UI_Scene.Editor)]
         public float TestNum;
 
-        public void FixedUpdate()
-        {
-
-        }
-
         public override void OnStart(StartState state)
         {
             var FloatRangeCtrl = (UI_FloatRange) Fields["TestNum"].uiControlEditor;
