@@ -49,6 +49,32 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Assembly-CSharp-firstpass.dll" />
+    <Content Include="bin\Debug\Assembly-CSharp.dll" />
+    <Content Include="bin\Debug\KSPAssets.dll" />
+    <Content Include="bin\Debug\KSProj_01.dll" />
+    <Content Include="bin\Debug\KSProj_01.pdb" />
+    <Content Include="bin\Debug\Mono.Cecil.dll" />
+    <Content Include="bin\Debug\Mono.Security.dll" />
+    <Content Include="bin\Debug\TDx.TDxInput.dll" />
+    <Content Include="bin\Debug\TrackIRUnity.dll" />
+    <Content Include="bin\Debug\UnityEngine.dll" />
+    <Content Include="bin\Debug\UnityEngine.UI.dll" />
+    <Content Include="bin\Debug\UnityEngine.xml" />
+    <Content Include="bin\Release\Assembly-CSharp-firstpass.dll" />
+    <Content Include="bin\Release\Assembly-CSharp.dll" />
+    <Content Include="bin\Release\KSPAssets.dll" />
+    <Content Include="bin\Release\KSProj_01.dll" />
+    <Content Include="bin\Release\KSProj_01.pdb" />
+    <Content Include="bin\Release\Mono.Cecil.dll" />
+    <Content Include="bin\Release\Mono.Security.dll" />
+    <Content Include="bin\Release\TDx.TDxInput.dll" />
+    <Content Include="bin\Release\TrackIRUnity.dll" />
+    <Content Include="bin\Release\UnityEngine.dll" />
+    <Content Include="bin\Release\UnityEngine.UI.dll" />
+    <Content Include="bin\Release\UnityEngine.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
