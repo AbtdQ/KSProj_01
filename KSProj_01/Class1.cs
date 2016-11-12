@@ -9,7 +9,7 @@ namespace KSProj_01
 {
     public class TestModule : PartModule
     {
-        [KSPField(isPersistant = false, guiActive = true, guiActiveEditor = true, guiName = "Buoyancy"), UI_FloatRange(minValue = 0f, maxValue = 0f, stepIncrement = 1f, scene = UI_Scene.Editor)]
+        [KSPField(isPersistant = true, guiActive = true, guiName = "Buoyancy"), UI_FloatRange(minValue = 0f, maxValue = 0f, stepIncrement = 1f, scene = UI_Scene.All)]
         public float TestNum;
 
         public void FixedUpdate()
