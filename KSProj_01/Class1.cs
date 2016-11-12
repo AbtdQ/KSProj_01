@@ -20,6 +20,7 @@ namespace KSProj_01
         {
             if (CurrentBuoyancy < DefaultBuoyancy)
                 CurrentBuoyancy += 0.05f;
+            CurrentBuoyancy = (float)Math.Round(CurrentBuoyancy, 2);
         }
 
         [KSPEvent(guiActive = true, guiActiveEditor = false, guiName = "Reduce Buoyancy")]
@@ -27,6 +28,7 @@ namespace KSProj_01
         {
             if (CurrentBuoyancy > 0f)
                 CurrentBuoyancy -= 0.05f;
+            CurrentBuoyancy = (float)Math.Round(CurrentBuoyancy, 2);
         }
 
         public void FixedUpdate()
