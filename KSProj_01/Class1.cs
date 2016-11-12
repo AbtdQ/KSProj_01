@@ -9,20 +9,48 @@ namespace KSProj_01
 {
     public class TestModule : PartModule
     {
-        [KSPField(isPersistant = true, guiActive = true, guiName = "Buoyancy"), UI_FloatRange(minValue = 0f, maxValue = 0f, stepIncrement = 1f, scene = UI_Scene.All)]
-        public float TestNum;
+        [KSPField(isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "Buoyancy"), UI_FloatRange(minValue = 0f, maxValue = 0f, stepIncrement = 0.05f, scene = UI_Scene.Editor)]
+        public float CurrentBuoyancy;
+
+        [KSPField(isPersistant = false)]
+        public float DefaultBuoyancy = 0.5f;
+
+        [KSPEvent(guiActive = true, guiActiveEditor = false, guiName = "Add Buoyancy")]
+        public void AddBuoyancy()
+        {
+            if (CurrentBuoyancy < DefaultBuoyancy)
+                CurrentBuoyancy += 0.05f;
+        }
+
+        [KSPEvent(guiActive = true, guiActiveEditor = false, guiName = "Reduce Buoyancy")]
+        public void ReduceBuoyancy()
+        {
+            if (CurrentBuoyancy > 0f)
+                CurrentBuoyancy -= 0.05f;
+        }
 
         public void FixedUpdate()
         {
-            part.buoyancy = TestNum;
+            if (!HighLogic.LoadedSceneIsFlight)
+                return;
+            part.buoyancy = CurrentBuoyancy;
         }
 
         public override void OnStart(StartState state)
         {
-            var FloatRangeCtrl = (UI_FloatRange) Fields["TestNum"].uiControlEditor;
-            FloatRangeCtrl.maxValue = 20f;
-            if (state == StartState.Editor || state == StartState.None) return;
-            base.OnStart(state);
+            var BycRangeCtrl = (UI_FloatRange)Fields["CurrentBuoyancy"].uiControlEditor;
+            BycRangeCtrl.maxValue = DefaultBuoyancy;
+
+            switch (state)
+            {
+                case StartState.Editor:
+                    break;
+                case StartState.None:
+                    break;
+                default:
+                    base.OnStart(state);
+                    break;
+            }
         }
     }
 }
