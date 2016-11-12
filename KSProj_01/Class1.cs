@@ -46,6 +46,7 @@ namespace KSProj_01
             switch (state)
             {
                 case StartState.Editor:
+                    CurrentBuoyancy = DefaultBuoyancy;
                     break;
                 case StartState.None:
                     break;
