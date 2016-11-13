@@ -13,7 +13,7 @@ namespace KSProj_01
         public float CurrentBuoyancy;
 
         [KSPField(isPersistant = false)]
-        public float DefaultBuoyancy = 0.5f;
+        public float DefaultBuoyancy = 1f;
 
         [KSPEvent(guiActive = true, guiActiveEditor = false, guiName = "Add Buoyancy")]
         public void AddBuoyancy()
