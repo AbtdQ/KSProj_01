@@ -12,3 +12,4 @@ C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug
 C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\bin\Debug\UnityEngine.xml
 C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Debug\KSProj_01.dll
 C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Debug\KSProj_01.pdb
+C:\Users\Qxy\Documents\Visual Studio 2015\Projects\KSProj_01\KSProj_01\obj\Debug\KSProj_01.csprojResolveAssemblyReference.cache
