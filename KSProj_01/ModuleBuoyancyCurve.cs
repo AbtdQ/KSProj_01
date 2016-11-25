@@ -9,7 +9,7 @@ namespace KSProj_01
 {
     class ModuleBuoyancyCurve : PartModule
     {
-        [KSPField(guiName = "Buoyancy", guiActive = true, guiActiveEditor = true)]
+        [KSPField(guiName = "Buoyancy", guiActive = true, guiActiveEditor = true, isPersistant = true)]
         [UI_ProgressBar(minValue = 0f, maxValue = 0f, scene = UI_Scene.All)]
         public float currentBuoyancyDisplay;
 
@@ -44,9 +44,10 @@ namespace KSProj_01
             else
             {
                 Debug.Log("[BuoyancyCurve]maxTempBuoyancyCurve is missing, creating default");
-                maxtempBuoyancyCurve.Add(0f, 1f);
-                maxtempBuoyancyCurve.Add(1000f, 0.7f);
-                maxtempBuoyancyCurve.Add(3200f, 0f);
+                maxtempBuoyancyCurve.Add(0f, 1f, 0f, 0f);
+                maxtempBuoyancyCurve.Add(300f, 1f, 0f, 0f);
+                maxtempBuoyancyCurve.Add(800f, 0.5f, 0f, 0f);
+                maxtempBuoyancyCurve.Add(1600f, 0f, 0f, 0f);
             }
             Debug.Log("[BuoyancyCurve]UI init");
             float tmaxValue, tminValue;
@@ -55,7 +56,7 @@ namespace KSProj_01
             ((UI_ProgressBar)(Fields["currentBuoyancyDisplay"].uiControlEditor)).maxValue = tmaxValue;
             ((UI_ProgressBar)(Fields["currentBuoyancyDisplay"].uiControlFlight)).minValue = tminValue;
             ((UI_ProgressBar)(Fields["currentBuoyancyDisplay"].uiControlFlight)).maxValue = tmaxValue;
-            currentBuoyancyDisplay = maxtempBuoyancyCurve.Evaluate(298f);
+            currentBuoyancyDisplay = tmaxValue;
         }
     }
 }
